@@ -10,3 +10,4 @@ dependencies:
   - datalad
   - pip:
       - nbgitpuller
+      - bash_kernel

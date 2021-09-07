@@ -14,6 +14,8 @@ To use this environment *as is*, visit [![Binder](https://mybinder.org/badge_log
 
 From the menu file browser interface, select `New > Terminal` and explore DataLad in the resulting command-line shell.
 
+Alternatively, create a new `Python` or `bash` notebook and populate this with your preferred code and descriptions.
+
 ### 2. Environment with content
 
 To use this environment with content (such as Jupyter notebooks and/or data), first make this content available via a separate repository.
@@ -35,7 +37,7 @@ The following files allow Binder to configure the base environment:
 
 - `environment.yml` specifies the required tools/packages that will be installed via [conda-forge](https://conda-forge.org/)
 - `apt.txt` specifies the required tools/packages that will be installed via APT
-- `postBuild` runs the command to enable the `nbgitpuller` extension
+- `postBuild` runs the commands to configure `git`, to install `bash_kernel`, and to enable the `nbgitpuller` extension
 
 These should only be updated if other packages or extensions are required for the base environment
 that allows DataLad to be run in Binder.

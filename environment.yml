@@ -1,0 +1,12 @@
+name: datalad_binder
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python=3.8.*
+  - pip
+  - datalad
+  - pip:
+      - nbgitpuller

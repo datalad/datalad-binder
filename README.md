@@ -10,7 +10,7 @@ from triggering a rebuild of the Binder environment instance.
 
 ### 1. Empty environment
 
-To use this environment *as is*, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsheunis/datalad-binder/HEAD)
+To use this environment *as is*, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/HEAD)
 
 From the menu file browser interface, select `New > Terminal` and explore DataLad in the resulting command-line shell.
 
@@ -23,13 +23,13 @@ To use this environment with content (such as Jupyter notebooks and/or data), fi
 Then construct a URL from the base environment repository URL and the content repository URL, as follows:
 
 ```
-https://mybinder.org/v2/gh/jsheunis/datalad-binder/HEAD?urlpath=git-pull?repo=<url-of-your-content-repo>
+https://mybinder.org/v2/gh/datalad/datalad-binder/HEAD?urlpath=git-pull?repo=<url-of-your-content-repo>
 ```
 
 This URL, when opened, will use [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) to automatically pull in content from the specified
 repository into the base Binder environment.
 
-For an example of using the base environment with seperate content, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsheunis/datalad-binder/HEAD)
+For an example of using the base environment with separate content, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/HEAD)
 
 ## Configuration
 

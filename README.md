@@ -29,9 +29,11 @@ https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pul
 This URL, when opened, will use [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) to automatically pull in content from the specified
 repository into the base Binder environment.
 
-For an example of using the base environment with separate content, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull?repo=https://github.com/jsheunis/datalad-notebooks)
+To use the base environment with separate content, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull?repo=https://github.com/jsheunis/datalad-notebooks)
 
-For an example of using the base environment with separate content **and parameters**, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull?repo=https://github.com/jsheunis/datalad-notebooks%2Fnotebooks%2Fdownload_data_with_datalad_python.ipynb%3Frepourl%3D%22https://github.com/psychoinformatics-de/paper-remodnav.git%22%26autorun%3Dtrue)
+To use the base environment with separate content **and parameters (Python)**, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjsheunis%252Fdatalad-notebooks%26urlpath%3Dnotebooks%252Fdatalad-notebooks%252Fdownload_data_with_datalad_python.ipynb%3Frepourl%3D%22https://github.com/psychoinformatics-de/paper-remodnav.git%22%26autorun%3Dtrue)
+
+To use the base environment with separate content **and parameters (bash, not functional yet)**, visit [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjsheunis%252Fdatalad-notebooks%26urlpath%3Dnotebooks%252Fdatalad-notebooks%252Fdownload_data_with_datalad_bash.ipynb%3Frepourl%3D%22https://github.com/psychoinformatics-de/paper-remodnav.git%22%26autorun%3Dtrue)
 
 ## Configuration
 

@@ -11,3 +11,4 @@ dependencies:
   - pip:
       - nbgitpuller
       - bash_kernel
+      - jupyter-notebookparams

@@ -2,6 +2,9 @@
 git config --global --add user.name "Ford Escort"
 git config --global --add user.email 42@H2G2.com
 
+# Set up bash prompt in .bashrc
+echo "export PS1='\w \$ '" >> ~/.bashrc
+
 # Install bash_kernel to Jupyter
 python -m bash_kernel.install
 

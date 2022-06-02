@@ -7,8 +7,9 @@ channels:
 dependencies:
   - python=3.8.*
   - pip
-  - datalad=0.15.*
+  - datalad=0.16.*
   - pip:
       - nbgitpuller
       - bash_kernel
       - jupyter-notebookparams
+      - jupyter-server-proxy

@@ -14,3 +14,5 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 # Install and enable jupyter_notebookparams
 jupyter nbextension install --py jupyter_notebookparams --sys-prefix
 jupyter nbextension enable --py jupyter_notebookparams --sys-prefix
+
+jupyter labextension install @jupyterlab/server-proxy

@@ -12,3 +12,4 @@ dependencies:
       - nbgitpuller
       - bash_kernel
       - jupyter-notebookparams
+      - git+https://github.com/choldgraf/jupyter-http-server@master

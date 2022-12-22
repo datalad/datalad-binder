@@ -5,11 +5,12 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.8.*
+  - python=3.11.*
   - pip
-  - datalad=0.16.*
+  - datalad=0.17.*
   - pip:
       - nbgitpuller
       - bash_kernel
       - jupyter-notebookparams
       - jupyter-server-proxy
+      - jupytext

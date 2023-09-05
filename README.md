@@ -31,7 +31,7 @@ To use this environment with content (such as Jupyter notebooks and/or data), fi
 Then construct a URL from the base environment repository URL and the content repository URL, as follows:
 
 ```
-https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull?repo=<url-of-your-content-repo>
+https://mybinder.org/v2/gh/datalad/datalad-binder/main?urlpath=git-pull?repo=<url-of-your-content-repo>
 ```
 
 This URL, when opened, will use [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) to automatically pull in content from the specified

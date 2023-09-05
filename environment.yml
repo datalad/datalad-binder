@@ -7,7 +7,9 @@ channels:
 dependencies:
   - python=3.10.*
   - pip
-  - datalad=0.17.*
+  - datalad=0.19.*
+  - pandas
+  - seaborn
   - pip:
       - nbgitpuller
       - bash_kernel
